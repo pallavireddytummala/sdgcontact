@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Tabs, Tab, Form, Button, Image } from 'react-bootstrap';
 import './App.css';
-import imgNY from './building ny.jpg'; 
+import imgNY from './building.jpg'; 
 
 function App() {
   return (
