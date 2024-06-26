@@ -1,0 +1,52 @@
+/* App.css */
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 39px;
+}
+
+.tab-content {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.data-box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: url('C:\Users\Dell\Desktop\contacts\src\building ny.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  display: inline-block; /* Ensures the box aligns properly */
+}
+
+.data-box .data-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+/* Custom styles for tab titles */
+.nav-tabs .nav-link {
+  color: yellow; /* Default color */
+  background-color: rgb(14, 50, 226); /* Initial background color */
+}
+
+.nav-tabs .nav-link.active {
+  color: blue !important; /* Active tab color */
+  background-color: yellow !important; /* Active tab background */
+}
+
+.nav-tabs .nav-link:hover {
+  color: #ff0; /* Hover color */
+}
