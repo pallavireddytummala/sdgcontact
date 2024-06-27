@@ -4,7 +4,7 @@ import { Container, Row, Col, Tabs, Tab, Form, Button, Image } from 'react-boots
 import './App.css';
 import berg from "./berg.jpg";
 import pris from "./pris.jpg";
-import imgNY from './building ny.jpg'; 
+import imgNY from './building.jpg'; 
 
 function App() {
   return (
