@@ -2,7 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Tabs, Tab, Form, Button, Image } from 'react-bootstrap';
 import './App.css';
-import imgNY from './building.jpg'; 
+import berg from "./berg.jpg";
+import pris from "./pris.jpg";
+import imgNY from './building ny.jpg'; 
 
 function App() {
   return (
@@ -115,14 +117,23 @@ function App() {
         <Col className="px-3 col-4">
           <h3>Your contact</h3>
           <Row className="my-3">
-            <Col xs={3}>
-              <Image src={imgNY} roundedCircle className="img-fluid small-img" alt="img" />
+            <Col >
+              <Image src={berg} roundedCircle className="img-fluid small-img" alt="img" />
             </Col>
             <Col xs={9}>
-              <h5 className="font-weight-bold">name</h5>
-              <p className="text-muted">title</p>
-              <p>Email: <a href={`mailto:email`}>email</a></p>
-              <p>Skype: <a href={`skype:skype`}>skype</a></p>
+              <h5 className="font-weight-bold">Berg Devien</h5>
+              <p className="text-muted">Head of communications</p>
+              <p>Email: <a href={`mailto:email`}>berg@consulting.wp</a></p>
+              <p>Skype: <a href={`skype:skype`}>berg.consulting</a></p>
+            </Col>
+            <Col xs={3}>
+              <Image src={pris} roundedCircle className="img-fluid small-img" alt="img" />
+            </Col>
+            <Col xs={9}>
+              <h5 className="font-weight-bold">Priscilla Sorvino</h5>
+              <p className="text-muted">Head of communications</p>
+              <p>Email: <a href={`mailto:email`}>prisciall@consulting.wp</a></p>
+              <p>Skype: <a href={`skype:skype`}>priscilla.consulting</a></p>
             </Col>
           </Row>
         </Col>
